@@ -15,15 +15,9 @@
       "js": [
         "jquery-3.2.1.min.js", 
         "outlook_ad_remove.js"
-      ]
+      ],
+      "run_at" : "document_end"
     }
   ],
-  "background": {
-    "scripts": [ "background.js" ],
-    "persistent": false
-  },
-  "browser_action": {
-    "default_title": "Outlook Ad Remover"
-  },
   "manifest_version": 2
 }
